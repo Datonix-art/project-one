@@ -1,0 +1,160 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background: white;
+}
+
+header h2 {
+  text-align: center !important;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container {
+  background-color: #00c1b5;
+  margin-left: 22px;
+  margin-right: 22px;
+  border: 5px solid  #00c1b5;
+  border-radius: 10px;
+  height: 51rem;
+}
+
+img {
+  width: 370px;
+  height: 450px;
+  margin-left: 473px;
+  margin-top: 15px;
+}
+
+.header-first-paragraph {
+  margin: 0px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: rgb(46, 42, 42);
+  font-family: 'Roboto', sans-serif;
+  font-variant: small-caps;
+  margin-left: 2px;
+  margin-top: 5px;
+}
+.header-email-paragraph {
+  position: relative;
+  left: 69.5rem;
+  top: -2.5rem;
+  font-weight: 600;
+  color:rgb(54, 48, 48);
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+article {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 45px;
+  margin-left: 13px;
+  color: rgb(27, 25, 25);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  word-spacing: 1px;
+  line-height: 25px;
+}
+.unstyled-policy {
+  font-size: 10.5px;
+  position: relative;
+  left: 13px;
+  top: -22px;
+  color: rgb(97, 95, 95);
+}
+.privacy-policy {
+  position: relative;
+  left: 13px;
+  top: -22px;
+  color: rgb(27, 25, 25);
+  cursor-pointer;
+}
+.issue {
+  text-align: right;
+  position: relative;
+  top: -200px;
+  left: -10px;
+  color: rgb(97, 95, 95);
+}
+.issue-one {
+  position: relative;
+  top: -28.5rem;
+  left: 40rem;
+  color: rgb(27, 25, 25);
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+.buying-marker {
+  position: relative;
+  top: -28rem;
+  left: 40rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color: white; 
+}
+.stores {
+  position: relative;
+  top: -26.9rem;
+  left: 38rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(27, 25, 25); 
+} 
+.white {
+  color: white !important;
+}
+
+body {
+  font-size: var(--media-mobile-size);
+  font-weight: var(--media-mobile-weight);
+  font-family: var(--media-font-family);
+  text-align: var(--media-alignment);
+  position: var(--media-positioning);
+  top: var(--media-positioning-top);
+  left: var(--media-positioning-left);
+  flex-direction: var(--media-flex-direction);
+  align-items: var(--media-align-items);
+  justify-content: var(--media-justify-content);
+  width: var(--media-width);
+  height: var(--media-height);
+}
+  @media screen and (min-width: 200px) and (max-width: 480px) {
+  img {
+    position: relative;
+    left: -420px;
+    width:  20rem;
+    height: 25rem;
+  }
+  p.header-first-paragraph {
+    font-size:  0.8rem;
+  }
+  p.header-email-paragraph {
+    font-size: 0.6rem;
+    position: relative;
+    left: 300px;
+    top: -25px;
+  }
+  article {
+    font-size: 0.8rem;
+    position: relative;
+    bottom: -3rem;
+  }
+  .unstyled-policy {
+    font-size: 0.7rem;
+    position: relative;
+    top: 2rem;
+  }
+  .privacy-policy {
+    position: relative;
+    top: 3rem;
+  }
+  p.issue {
+    position: relative;
+    bottom: -3rem;
+  }
+}
